@@ -4,7 +4,6 @@ require
   paths :
     "backbone"   : "../lib/backbone"
     "d3"         : "../lib/d3"
-    "epoxy"      : "../lib/backbone.epoxy"
     "jquery"     : "../lib/jquery"
     "underscore" : "../lib/lodash"
 
@@ -16,9 +15,8 @@ require
          "underscore"
          "jquery"
        ]
-    "epoxy" : deps: ["backbone"]
 
-    "views/dashboard" : deps: ["backbone", "epoxy", "d3"]
+    "views/dashboard" : deps: ["backbone", "d3"]
 
   [
     "backbone"
