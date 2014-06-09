@@ -1,12 +1,12 @@
 gulp = require "gulp"
 rs = require "run-sequence"
 
-clean     = require "gulp-clean"
-coffee    = require "gulp-coffee"
-concat    = require "gulp-concat"
-jade      = require "gulp-jade"
-serve     = require "gulp-serve"
-stylus    = require "gulp-stylus"
+clean  = require "gulp-clean"
+coffee = require "gulp-coffee"
+concat = require "gulp-concat"
+jade   = require "gulp-jade"
+serve  = require "gulp-serve"
+stylus = require "gulp-stylus"
 
 gulp.task "clean", ->
   gulp.src "temp", read: false
